@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+header {
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+.section {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.func{
+    margin-top: 40px;
+    background-color: white;
+}
+.func .container{
+    padding: 10px;
+    border: 2px solid black;
+}
+#num{
+    width: 300px;
+    margin: 20px;
+}
+#table-display{
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+table{
+    border: 2px solid black;
+    margin-left: 310px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+#checker {
+    margin-top: 40px;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
